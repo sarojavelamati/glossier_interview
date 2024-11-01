@@ -1,0 +1,1039 @@
+[0m22:35:05.640204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107229b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086e2280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086e21f0>]}
+
+
+============================== 22:35:05.642002 | 9164b53f-cbca-427f-9a0a-6b390086ff5e ==============================
+[0m22:35:05.642002 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:35:05.642264 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:35:05.655190 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "helpdesk_analysis", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m22:35:05.655532 [debug] [MainThread]: Command `dbt run` failed at 22:35:05.655477 after 0.03 seconds
+[0m22:35:05.655676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107229b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10878fd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10878ffa0>]}
+[0m22:35:05.655831 [debug] [MainThread]: Flushing usage events
+[0m22:35:48.314086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102870df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e522b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103e521f0>]}
+
+
+============================== 22:35:48.316403 | f61f6fba-8cab-476c-83c1-4a62030c53ab ==============================
+[0m22:35:48.316403 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:35:48.316662 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'profiles_dir': '/Users/saroja/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:35:48.329061 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "helpdesk_analysis", target "dev" invalid: 'schema_directory' is a required property
+[0m22:35:48.329449 [debug] [MainThread]: Command `dbt run` failed at 22:35:48.329385 after 0.03 seconds
+[0m22:35:48.329642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102870df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104009190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104009fa0>]}
+[0m22:35:48.329848 [debug] [MainThread]: Flushing usage events
+[0m22:36:21.475169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10402fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105811370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058112b0>]}
+
+
+============================== 22:36:21.477426 | 885cf756-af8f-49a9-8cc0-1cce96cecd0a ==============================
+[0m22:36:21.477426 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:36:21.477690 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:21.503688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '885cf756-af8f-49a9-8cc0-1cce96cecd0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105841370>]}
+[0m22:36:21.513035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '885cf756-af8f-49a9-8cc0-1cce96cecd0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058e6790>]}
+[0m22:36:21.513358 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:36:21.535264 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:36:21.535601 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:36:21.535765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '885cf756-af8f-49a9-8cc0-1cce96cecd0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058bedf0>]}
+[0m22:36:21.828388 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m22:36:21.837020 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m22:36:21.838218 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m22:36:21.839751 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m22:36:21.841193 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m22:36:21.843470 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m22:36:21.844267 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m22:36:21.845606 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m22:36:21.846922 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m22:36:21.893970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '885cf756-af8f-49a9-8cc0-1cce96cecd0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a700d0>]}
+[0m22:36:21.897405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '885cf756-af8f-49a9-8cc0-1cce96cecd0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ad3790>]}
+[0m22:36:21.897577 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:36:21.897720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '885cf756-af8f-49a9-8cc0-1cce96cecd0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ad3160>]}
+[0m22:36:21.898367 [info ] [MainThread]: 
+[0m22:36:21.898654 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:36:21.899159 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db'
+[0m22:36:21.904152 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db"
+[0m22:36:21.904282 [debug] [ThreadPool]: On list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db: BEGIN
+[0m22:36:21.904384 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:36:21.904886 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:36:21.905008 [debug] [MainThread]: Connection 'list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db' was properly closed.
+[0m22:36:21.905115 [info ] [MainThread]: 
+[0m22:36:21.905253 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:36:21.905431 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:36:21.905646 [debug] [MainThread]: Command `dbt run` failed at 22:36:21.905605 after 0.44 seconds
+[0m22:36:21.905775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10402fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ad3520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a98e80>]}
+[0m22:36:21.905901 [debug] [MainThread]: Flushing usage events
+[0m22:36:50.697080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046bddf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f9e2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f9e1f0>]}
+
+
+============================== 22:36:50.700079 | 3084163f-71fd-4239-88c5-65202af25ebf ==============================
+[0m22:36:50.700079 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:36:50.700352 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'profiles_dir': '/Users/saroja/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:50.728489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3084163f-71fd-4239-88c5-65202af25ebf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fcf2b0>]}
+[0m22:36:50.738378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3084163f-71fd-4239-88c5-65202af25ebf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060726d0>]}
+[0m22:36:50.738833 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:36:50.765340 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:36:50.787019 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:36:50.787207 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:36:50.790122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3084163f-71fd-4239-88c5-65202af25ebf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061e1e80>]}
+[0m22:36:50.799487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3084163f-71fd-4239-88c5-65202af25ebf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106111280>]}
+[0m22:36:50.799662 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:36:50.799809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3084163f-71fd-4239-88c5-65202af25ebf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061112b0>]}
+[0m22:36:50.800529 [info ] [MainThread]: 
+[0m22:36:50.800856 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:36:50.801404 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db'
+[0m22:36:50.806728 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db"
+[0m22:36:50.806883 [debug] [ThreadPool]: On list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db: BEGIN
+[0m22:36:50.806997 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:36:50.807566 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:36:50.807699 [debug] [MainThread]: Connection 'list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db' was properly closed.
+[0m22:36:50.807823 [info ] [MainThread]: 
+[0m22:36:50.807975 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:36:50.808182 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:36:50.808413 [debug] [MainThread]: Command `dbt run` failed at 22:36:50.808369 after 0.13 seconds
+[0m22:36:50.808555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046bddf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106111370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061e19d0>]}
+[0m22:36:50.808707 [debug] [MainThread]: Flushing usage events
+[0m22:38:39.965148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071f1a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086ab1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086ab100>]}
+
+
+============================== 22:38:39.967681 | 7ffb787a-d0ad-4f9e-b56b-de7af178995e ==============================
+[0m22:38:39.967681 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:38:39.967981 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:38:39.994556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7ffb787a-d0ad-4f9e-b56b-de7af178995e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086dba30>]}
+[0m22:38:40.004135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7ffb787a-d0ad-4f9e-b56b-de7af178995e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10877c5e0>]}
+[0m22:38:40.004461 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:38:40.029995 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:38:40.045480 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:38:40.045635 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:38:40.048647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7ffb787a-d0ad-4f9e-b56b-de7af178995e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088edd90>]}
+[0m22:38:40.051768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7ffb787a-d0ad-4f9e-b56b-de7af178995e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088271c0>]}
+[0m22:38:40.051940 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:38:40.052096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7ffb787a-d0ad-4f9e-b56b-de7af178995e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108827160>]}
+[0m22:38:40.052776 [info ] [MainThread]: 
+[0m22:38:40.053087 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:38:40.053666 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db'
+[0m22:38:40.058857 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db"
+[0m22:38:40.058998 [debug] [ThreadPool]: On list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db: BEGIN
+[0m22:38:40.059095 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:38:40.059600 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:38:40.059708 [debug] [MainThread]: Connection 'list_/Users/saroja/PycharmProjects/glossier/src/interview_questsion_set2/helpdesk_analysis/helpdesk_analysis.db' was properly closed.
+[0m22:38:40.059811 [info ] [MainThread]: 
+[0m22:38:40.059945 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:38:40.060122 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:38:40.060335 [debug] [MainThread]: Command `dbt run` failed at 22:38:40.060294 after 0.11 seconds
+[0m22:38:40.060465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071f1a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108827280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088ed9d0>]}
+[0m22:38:40.060612 [debug] [MainThread]: Flushing usage events
+[0m22:40:23.518031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b30df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104312fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043402e0>]}
+
+
+============================== 22:40:23.520720 | 0bb23e31-9c85-488b-8ae4-7c5255484f3e ==============================
+[0m22:40:23.520720 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:40:23.520995 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:40:23.521194 [info ] [MainThread]: Setting up your profile.
+[0m22:40:34.122601 [debug] [MainThread]: Command `dbt init` succeeded at 22:40:34.122315 after 10.62 seconds
+[0m22:40:34.123229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b30df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e5a250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104312490>]}
+[0m22:40:34.123565 [debug] [MainThread]: Flushing usage events
+[0m22:43:01.536263 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a60f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107353f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107380280>]}
+
+
+============================== 22:43:01.538779 | c9461dec-b4b6-4091-a5bc-115cd893fba9 ==============================
+[0m22:43:01.538779 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:43:01.539071 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'debug': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:43:01.539268 [info ] [MainThread]: Setting up your profile.
+[0m22:43:07.781797 [debug] [MainThread]: Command `dbt init` succeeded at 22:43:07.781616 after 6.26 seconds
+[0m22:43:07.782066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a60f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f90520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f90c40>]}
+[0m22:43:07.782275 [debug] [MainThread]: Flushing usage events
+[0m22:43:14.388011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042c0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10577a310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10577a250>]}
+
+
+============================== 22:43:14.389656 | 0ee9fea8-7791-4f34-8f73-11944d345fad ==============================
+[0m22:43:14.389656 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:43:14.389899 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:43:14.413953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0ee9fea8-7791-4f34-8f73-11944d345fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10227b100>]}
+[0m22:43:14.423122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0ee9fea8-7791-4f34-8f73-11944d345fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10584c700>]}
+[0m22:43:14.424216 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:43:14.447295 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:43:14.451462 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:43:14.451669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0ee9fea8-7791-4f34-8f73-11944d345fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105816c40>]}
+[0m22:43:14.735980 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m22:43:14.745009 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m22:43:14.746334 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m22:43:14.747915 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m22:43:14.749413 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m22:43:14.751772 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m22:43:14.752478 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m22:43:14.753911 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m22:43:14.755258 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m22:43:14.802150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0ee9fea8-7791-4f34-8f73-11944d345fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a0e0d0>]}
+[0m22:43:14.805167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0ee9fea8-7791-4f34-8f73-11944d345fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a074f0>]}
+[0m22:43:14.805345 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:43:14.805499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0ee9fea8-7791-4f34-8f73-11944d345fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a074f0>]}
+[0m22:43:14.806188 [info ] [MainThread]: 
+[0m22:43:14.806501 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:43:14.807033 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_<database name>'
+[0m22:43:14.812048 [debug] [ThreadPool]: Using sqlite connection "list_<database name>"
+[0m22:43:14.812208 [debug] [ThreadPool]: On list_<database name>: BEGIN
+[0m22:43:14.812307 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:43:14.813914 [debug] [ThreadPool]: On list_<database name>: No close available on handle
+[0m22:43:14.814489 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:43:14.814626 [debug] [MainThread]: Connection 'list_<database name>' was properly closed.
+[0m22:43:14.814789 [info ] [MainThread]: 
+[0m22:43:14.814971 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:43:14.815193 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      unable to open database file
+[0m22:43:14.815434 [debug] [MainThread]: Command `dbt run` failed at 22:43:14.815395 after 0.44 seconds
+[0m22:43:14.815566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042c0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f7d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f0af0>]}
+[0m22:43:14.815710 [debug] [MainThread]: Flushing usage events
+[0m22:46:00.203152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e70df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10665e2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10665e220>]}
+
+
+============================== 22:46:00.206031 | e6c1fd57-b356-439f-8395-dec7da4f8ee5 ==============================
+[0m22:46:00.206031 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:46:00.206326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:46:00.219622 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "helpdesk_analysis", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m22:46:00.220003 [debug] [MainThread]: Command `dbt run` failed at 22:46:00.219941 after 0.03 seconds
+[0m22:46:00.220155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e70df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106702ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106702940>]}
+[0m22:46:00.220317 [debug] [MainThread]: Flushing usage events
+[0m22:46:28.808914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f70df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f522e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f52220>]}
+
+
+============================== 22:46:28.811241 | d8b37451-5961-462b-a643-578ac8ee250c ==============================
+[0m22:46:28.811241 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:46:28.811505 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:46:28.823443 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "helpdesk_analysis", target "dev" invalid: 'schema_directory' is a required property
+[0m22:46:28.823780 [debug] [MainThread]: Command `dbt run` failed at 22:46:28.823719 after 0.03 seconds
+[0m22:46:28.823912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f70df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ffae80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ffa940>]}
+[0m22:46:28.824057 [debug] [MainThread]: Flushing usage events
+[0m22:47:01.545873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056f0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ede2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ede220>]}
+
+
+============================== 22:47:01.548134 | 037c1608-e9e8-48b1-bc2d-3f57d08d34d0 ==============================
+[0m22:47:01.548134 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:47:01.548380 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:47:01.559969 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "helpdesk_analysis", target "dev" invalid: 'schema_directory' is a required property
+[0m22:47:01.560289 [debug] [MainThread]: Command `dbt run` failed at 22:47:01.560236 after 0.03 seconds
+[0m22:47:01.560428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056f0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f82f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f82940>]}
+[0m22:47:01.560573 [debug] [MainThread]: Flushing usage events
+[0m22:47:20.032101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107830df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117122e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111712220>]}
+
+
+============================== 22:47:20.034390 | b6b9504f-26ac-4550-b97a-27679ab9ee62 ==============================
+[0m22:47:20.034390 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:47:20.034673 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'profiles_dir': '/Users/saroja/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:47:20.060735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b6b9504f-26ac-4550-b97a-27679ab9ee62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117422e0>]}
+[0m22:47:20.070080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b6b9504f-26ac-4550-b97a-27679ab9ee62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117e5700>]}
+[0m22:47:20.070433 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:47:20.093765 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:47:20.097657 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:47:20.097843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b6b9504f-26ac-4550-b97a-27679ab9ee62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f3fc40>]}
+[0m22:47:20.379121 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m22:47:20.387703 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m22:47:20.389508 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m22:47:20.391018 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m22:47:20.392477 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m22:47:20.394734 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m22:47:20.395426 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m22:47:20.396876 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m22:47:20.398226 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m22:47:20.445710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b6b9504f-26ac-4550-b97a-27679ab9ee62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ab80d0>]}
+[0m22:47:20.449060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b6b9504f-26ac-4550-b97a-27679ab9ee62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11189bd00>]}
+[0m22:47:20.449242 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:47:20.449400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b6b9504f-26ac-4550-b97a-27679ab9ee62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111783340>]}
+[0m22:47:20.450035 [info ] [MainThread]: 
+[0m22:47:20.450324 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:47:20.450828 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m22:47:20.455357 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m22:47:20.455472 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m22:47:20.455567 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:47:20.456027 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:47:20.456133 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m22:47:20.456233 [info ] [MainThread]: 
+[0m22:47:20.456363 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:47:20.456536 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:47:20.456761 [debug] [MainThread]: Command `dbt run` failed at 22:47:20.456715 after 0.44 seconds
+[0m22:47:20.456898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107830df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a9ad90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a96af0>]}
+[0m22:47:20.457038 [debug] [MainThread]: Flushing usage events
+[0m22:48:22.309831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105230df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072df2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072df220>]}
+
+
+============================== 22:48:22.312390 | 6b458984-b58c-43e3-a847-7eb7a1233992 ==============================
+[0m22:48:22.312390 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:48:22.312660 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:48:22.339328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6b458984-b58c-43e3-a847-7eb7a1233992', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1030b3100>]}
+[0m22:48:22.348617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6b458984-b58c-43e3-a847-7eb7a1233992', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073b2700>]}
+[0m22:48:22.348955 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:48:22.372234 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:48:22.376301 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:48:22.376531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6b458984-b58c-43e3-a847-7eb7a1233992', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aefc40>]}
+[0m22:48:22.666942 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m22:48:22.675980 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m22:48:22.677850 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m22:48:22.679291 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m22:48:22.680692 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m22:48:22.682963 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m22:48:22.683704 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m22:48:22.685230 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m22:48:22.686593 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m22:48:22.730558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6b458984-b58c-43e3-a847-7eb7a1233992', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10766f0d0>]}
+[0m22:48:22.735021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6b458984-b58c-43e3-a847-7eb7a1233992', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107468d00>]}
+[0m22:48:22.735205 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:48:22.735359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6b458984-b58c-43e3-a847-7eb7a1233992', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107350340>]}
+[0m22:48:22.736023 [info ] [MainThread]: 
+[0m22:48:22.736325 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:48:22.736810 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m22:48:22.741610 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m22:48:22.741738 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m22:48:22.741834 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:48:22.742341 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:48:22.742439 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m22:48:22.742542 [info ] [MainThread]: 
+[0m22:48:22.742678 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:48:22.742857 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:48:22.743062 [debug] [MainThread]: Command `dbt run` failed at 22:48:22.743023 after 0.45 seconds
+[0m22:48:22.743183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105230df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107659d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107657af0>]}
+[0m22:48:22.743316 [debug] [MainThread]: Flushing usage events
+[0m22:49:52.999250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029e8b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042de280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042de1c0>]}
+
+
+============================== 22:49:53.001507 | d4f9b549-0579-47f5-8e02-db5083ea503e ==============================
+[0m22:49:53.001507 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:49:53.001769 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:49:53.028297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd4f9b549-0579-47f5-8e02-db5083ea503e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10430e280>]}
+[0m22:49:53.037685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd4f9b549-0579-47f5-8e02-db5083ea503e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043b16a0>]}
+[0m22:49:53.037991 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:49:53.060835 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:49:53.078783 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m22:49:53.079041 [debug] [MainThread]: Partial parsing: updated file: helpdesk_analysis://models/messages.sql
+[0m22:49:53.079195 [debug] [MainThread]: Partial parsing: updated file: helpdesk_analysis://models/tickets.sql
+[0m22:49:53.092345 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m22:49:53.098180 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m22:49:53.103596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd4f9b549-0579-47f5-8e02-db5083ea503e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10455fe80>]}
+[0m22:49:53.107231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd4f9b549-0579-47f5-8e02-db5083ea503e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045421c0>]}
+[0m22:49:53.107417 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:49:53.107571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd4f9b549-0579-47f5-8e02-db5083ea503e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104542190>]}
+[0m22:49:53.108196 [info ] [MainThread]: 
+[0m22:49:53.108480 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:49:53.109061 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m22:49:53.113840 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m22:49:53.113965 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m22:49:53.114064 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:49:53.114531 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:49:53.114629 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m22:49:53.114726 [info ] [MainThread]: 
+[0m22:49:53.114858 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:49:53.115032 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:49:53.115266 [debug] [MainThread]: Command `dbt run` failed at 22:49:53.115222 after 0.13 seconds
+[0m22:49:53.115403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029e8b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045420a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104504340>]}
+[0m22:49:53.115549 [debug] [MainThread]: Flushing usage events
+[0m22:50:56.055707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104230df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c1e2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c1e1f0>]}
+
+
+============================== 22:50:56.058117 | fb3980e4-41dc-4e1f-aa52-d499934c2d47 ==============================
+[0m22:50:56.058117 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:50:56.058392 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:50:56.071025 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "helpdesk_analysis", target "dev" invalid: 'schema' is a required property
+[0m22:50:56.071365 [debug] [MainThread]: Command `dbt run` failed at 22:50:56.071300 after 0.03 seconds
+[0m22:50:56.071509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104230df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cc6e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cc6ee0>]}
+[0m22:50:56.071656 [debug] [MainThread]: Flushing usage events
+[0m22:51:52.304310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103090df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10454a310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10454a250>]}
+
+
+============================== 22:51:52.306716 | 79677718-2b71-4f53-99c6-9de05edaec51 ==============================
+[0m22:51:52.306716 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:51:52.306987 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:51:52.334004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '79677718-2b71-4f53-99c6-9de05edaec51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10457a310>]}
+[0m22:51:52.343749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '79677718-2b71-4f53-99c6-9de05edaec51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10461d730>]}
+[0m22:51:52.344123 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:51:52.367914 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:51:52.371961 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m22:51:52.372154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '79677718-2b71-4f53-99c6-9de05edaec51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045bb070>]}
+[0m22:51:52.662825 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m22:51:52.671615 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m22:51:52.672866 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m22:51:52.674276 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m22:51:52.675739 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m22:51:52.678034 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m22:51:52.678750 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m22:51:52.680252 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m22:51:52.681624 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m22:51:52.728576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '79677718-2b71-4f53-99c6-9de05edaec51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047dd0d0>]}
+[0m22:51:52.732020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '79677718-2b71-4f53-99c6-9de05edaec51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047554c0>]}
+[0m22:51:52.732193 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:51:52.732338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '79677718-2b71-4f53-99c6-9de05edaec51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047d7550>]}
+[0m22:51:52.732973 [info ] [MainThread]: 
+[0m22:51:52.733265 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:51:52.733763 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m22:51:52.738435 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m22:51:52.738574 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m22:51:52.738670 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:51:52.739187 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:51:52.739331 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m22:51:52.739459 [info ] [MainThread]: 
+[0m22:51:52.739616 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:51:52.739814 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:51:52.740044 [debug] [MainThread]: Command `dbt run` failed at 22:51:52.740000 after 0.45 seconds
+[0m22:51:52.740180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103090df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047d7550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10488df70>]}
+[0m22:51:52.740317 [debug] [MainThread]: Flushing usage events
+[0m22:58:51.449550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d31df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cd1340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cd1280>]}
+
+
+============================== 22:58:51.452076 | 383da93b-1a7e-40b6-bd17-de44c4225409 ==============================
+[0m22:58:51.452076 [info ] [MainThread]: Running with dbt=1.5.11
+[0m22:58:51.452360 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:58:51.478877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '383da93b-1a7e-40b6-bd17-de44c4225409', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d03340>]}
+[0m22:58:51.488221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '383da93b-1a7e-40b6-bd17-de44c4225409', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106da6760>]}
+[0m22:58:51.488599 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m22:58:51.512322 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m22:58:51.531015 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:58:51.531168 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:58:51.534016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '383da93b-1a7e-40b6-bd17-de44c4225409', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f12f10>]}
+[0m22:58:51.536963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '383da93b-1a7e-40b6-bd17-de44c4225409', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e5e340>]}
+[0m22:58:51.537129 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m22:58:51.537283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '383da93b-1a7e-40b6-bd17-de44c4225409', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e5e3d0>]}
+[0m22:58:51.537931 [info ] [MainThread]: 
+[0m22:58:51.538214 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m22:58:51.538762 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m22:58:51.543537 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m22:58:51.543657 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m22:58:51.543756 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:58:51.544240 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:58:51.544349 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m22:58:51.544457 [info ] [MainThread]: 
+[0m22:58:51.544603 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m22:58:51.544795 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m22:58:51.545021 [debug] [MainThread]: Command `dbt run` failed at 22:58:51.544975 after 0.11 seconds
+[0m22:58:51.545157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d31df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e5e460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f129d0>]}
+[0m22:58:51.545310 [debug] [MainThread]: Flushing usage events
+[0m23:01:20.392940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102770df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10465d400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10465d340>]}
+
+
+============================== 23:01:20.395439 | 467f6fe3-291b-4cb6-a928-366cd29c6ce6 ==============================
+[0m23:01:20.395439 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:01:20.395698 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:01:20.421824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '467f6fe3-291b-4cb6-a928-366cd29c6ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100503100>]}
+[0m23:01:20.431129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '467f6fe3-291b-4cb6-a928-366cd29c6ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104730730>]}
+[0m23:01:20.431491 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:01:20.455026 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:01:20.473414 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:01:20.473575 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:01:20.476509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '467f6fe3-291b-4cb6-a928-366cd29c6ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10499eee0>]}
+[0m23:01:20.480361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '467f6fe3-291b-4cb6-a928-366cd29c6ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047e8310>]}
+[0m23:01:20.480548 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:01:20.480705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '467f6fe3-291b-4cb6-a928-366cd29c6ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047e82b0>]}
+[0m23:01:20.481227 [info ] [MainThread]: 
+[0m23:01:20.481362 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:01:20.481554 [debug] [MainThread]: Command end result
+[0m23:01:20.484241 [info ] [MainThread]: 
+[0m23:01:20.484387 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:01:20.484504 [info ] [MainThread]: 
+[0m23:01:20.484634 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m23:01:20.484840 [debug] [MainThread]: Command `dbt seed` succeeded at 23:01:20.484800 after 0.11 seconds
+[0m23:01:20.484969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102770df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1034d8fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104730730>]}
+[0m23:01:20.485093 [debug] [MainThread]: Flushing usage events
+[0m23:01:34.559340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105070df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10652a310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10652a250>]}
+
+
+============================== 23:01:34.561492 | 9376150e-26cc-4a49-b694-3d0135c5d4c1 ==============================
+[0m23:01:34.561492 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:01:34.561743 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:01:34.588105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9376150e-26cc-4a49-b694-3d0135c5d4c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10302b100>]}
+[0m23:01:34.597505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9376150e-26cc-4a49-b694-3d0135c5d4c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065ff730>]}
+[0m23:01:34.597828 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:01:34.620893 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:01:34.637729 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:01:34.637880 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:01:34.640856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9376150e-26cc-4a49-b694-3d0135c5d4c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106769ee0>]}
+[0m23:01:34.644202 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9376150e-26cc-4a49-b694-3d0135c5d4c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066ac310>]}
+[0m23:01:34.644392 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:01:34.644542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9376150e-26cc-4a49-b694-3d0135c5d4c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066ac2b0>]}
+[0m23:01:34.645189 [info ] [MainThread]: 
+[0m23:01:34.645482 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m23:01:34.646004 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m23:01:34.650895 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m23:01:34.651014 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m23:01:34.651111 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:01:34.651596 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:01:34.651716 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m23:01:34.651829 [info ] [MainThread]: 
+[0m23:01:34.651963 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m23:01:34.652157 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m23:01:34.652384 [debug] [MainThread]: Command `dbt run` failed at 23:01:34.652341 after 0.10 seconds
+[0m23:01:34.652528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105070df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066ac3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067699d0>]}
+[0m23:01:34.652665 [debug] [MainThread]: Flushing usage events
+[0m23:02:24.765674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105130df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070123a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070122e0>]}
+
+
+============================== 23:02:24.767954 | c45accb6-f2a8-4804-a826-3b9a2d5be11d ==============================
+[0m23:02:24.767954 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:02:24.768229 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:02:24.794366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c45accb6-f2a8-4804-a826-3b9a2d5be11d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107040a90>]}
+[0m23:02:24.803629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c45accb6-f2a8-4804-a826-3b9a2d5be11d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070e56d0>]}
+[0m23:02:24.803940 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:02:24.826723 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:02:24.830881 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:02:24.831093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c45accb6-f2a8-4804-a826-3b9a2d5be11d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070829a0>]}
+[0m23:02:25.112590 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m23:02:25.121194 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m23:02:25.123144 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m23:02:25.124727 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m23:02:25.126072 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m23:02:25.128435 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m23:02:25.129131 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m23:02:25.130558 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m23:02:25.131945 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m23:02:25.191450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c45accb6-f2a8-4804-a826-3b9a2d5be11d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073a20d0>]}
+[0m23:02:25.194441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c45accb6-f2a8-4804-a826-3b9a2d5be11d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107633520>]}
+[0m23:02:25.194605 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 1 seed file, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:02:25.194746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c45accb6-f2a8-4804-a826-3b9a2d5be11d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076335b0>]}
+[0m23:02:25.195327 [info ] [MainThread]: 
+[0m23:02:25.195620 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m23:02:25.196011 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m23:02:25.200825 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m23:02:25.200953 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m23:02:25.201056 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:02:25.201563 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:02:25.201674 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m23:02:25.201780 [info ] [MainThread]: 
+[0m23:02:25.201923 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m23:02:25.202102 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m23:02:25.202309 [debug] [MainThread]: Command `dbt seed` failed at 23:02:25.202270 after 0.45 seconds
+[0m23:02:25.202444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105130df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10762f6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073a23a0>]}
+[0m23:02:25.202579 [debug] [MainThread]: Flushing usage events
+[0m23:02:39.464699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033f0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10559e400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10559e340>]}
+
+
+============================== 23:02:39.466863 | 056c3ac8-e4ec-4888-a766-e06eee8cd4a6 ==============================
+[0m23:02:39.466863 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:02:39.467158 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:02:39.493229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '056c3ac8-e4ec-4888-a766-e06eee8cd4a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10096f100>]}
+[0m23:02:39.502755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '056c3ac8-e4ec-4888-a766-e06eee8cd4a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105671730>]}
+[0m23:02:39.503108 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:02:39.526232 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:02:39.530257 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:02:39.530459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '056c3ac8-e4ec-4888-a766-e06eee8cd4a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10560f070>]}
+[0m23:02:39.819658 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m23:02:39.828881 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m23:02:39.829939 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m23:02:39.831650 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m23:02:39.833002 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m23:02:39.835603 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m23:02:39.836294 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m23:02:39.837792 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m23:02:39.839204 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m23:02:39.885969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '056c3ac8-e4ec-4888-a766-e06eee8cd4a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058ad0d0>]}
+[0m23:02:39.889207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '056c3ac8-e4ec-4888-a766-e06eee8cd4a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057dc850>]}
+[0m23:02:39.889410 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:02:39.889556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '056c3ac8-e4ec-4888-a766-e06eee8cd4a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056c3730>]}
+[0m23:02:39.890107 [info ] [MainThread]: 
+[0m23:02:39.890241 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:02:39.890442 [debug] [MainThread]: Command end result
+[0m23:02:39.893129 [info ] [MainThread]: 
+[0m23:02:39.893311 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:02:39.893443 [info ] [MainThread]: 
+[0m23:02:39.893612 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m23:02:39.893853 [debug] [MainThread]: Command `dbt seed` succeeded at 23:02:39.893808 after 0.44 seconds
+[0m23:02:39.894012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033f0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10579eb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105671730>]}
+[0m23:02:39.894145 [debug] [MainThread]: Flushing usage events
+[0m23:03:40.398186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107070b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118752370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1187522b0>]}
+
+
+============================== 23:03:40.400781 | 5292d9be-b296-448c-bbf6-3776f7babbd3 ==============================
+[0m23:03:40.400781 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:03:40.401053 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:03:40.427999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5292d9be-b296-448c-bbf6-3776f7babbd3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104dff100>]}
+[0m23:03:40.437608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5292d9be-b296-448c-bbf6-3776f7babbd3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1188256a0>]}
+[0m23:03:40.437995 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:03:40.461933 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:03:40.465987 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:03:40.466213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5292d9be-b296-448c-bbf6-3776f7babbd3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1187eae20>]}
+[0m23:03:40.750143 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m23:03:40.758708 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m23:03:40.760511 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m23:03:40.762142 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m23:03:40.763467 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m23:03:40.765977 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m23:03:40.766859 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m23:03:40.768399 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m23:03:40.769891 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m23:03:40.832092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5292d9be-b296-448c-bbf6-3776f7babbd3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118b04070>]}
+[0m23:03:40.835605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5292d9be-b296-448c-bbf6-3776f7babbd3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118b77580>]}
+[0m23:03:40.835797 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 1 seed file, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:03:40.835950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5292d9be-b296-448c-bbf6-3776f7babbd3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118b77400>]}
+[0m23:03:40.836597 [info ] [MainThread]: 
+[0m23:03:40.836927 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m23:03:40.837322 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m23:03:40.842354 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m23:03:40.842476 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m23:03:40.842573 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:03:40.843079 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:03:40.843224 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m23:03:40.843346 [info ] [MainThread]: 
+[0m23:03:40.843498 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m23:03:40.843695 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m23:03:40.843933 [debug] [MainThread]: Command `dbt seed` failed at 23:03:40.843886 after 0.46 seconds
+[0m23:03:40.844070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107070b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118b04ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118b76ca0>]}
+[0m23:03:40.844213 [debug] [MainThread]: Flushing usage events
+[0m23:04:58.571575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104db0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063932e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106393220>]}
+
+
+============================== 23:04:58.575255 | 587523da-c206-4c9f-8a4e-a719ee156906 ==============================
+[0m23:04:58.575255 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:04:58.575557 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'debug': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:04:58.603127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '587523da-c206-4c9f-8a4e-a719ee156906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063c22e0>]}
+[0m23:04:58.612577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '587523da-c206-4c9f-8a4e-a719ee156906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106465700>]}
+[0m23:04:58.612955 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:04:58.642292 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:04:58.663682 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:04:58.663855 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:04:58.666826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '587523da-c206-4c9f-8a4e-a719ee156906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066e30d0>]}
+[0m23:04:58.670952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '587523da-c206-4c9f-8a4e-a719ee156906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106621c10>]}
+[0m23:04:58.671134 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 1 seed file, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:04:58.671290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '587523da-c206-4c9f-8a4e-a719ee156906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106621bb0>]}
+[0m23:04:58.672008 [info ] [MainThread]: 
+[0m23:04:58.672327 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m23:04:58.672912 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m23:04:58.678243 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m23:04:58.678385 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m23:04:58.678498 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:04:58.679017 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:04:58.679126 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m23:04:58.679240 [info ] [MainThread]: 
+[0m23:04:58.679386 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m23:04:58.679589 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m23:04:58.679817 [debug] [MainThread]: Command `dbt run` failed at 23:04:58.679772 after 0.12 seconds
+[0m23:04:58.679958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104db0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106621cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066e33d0>]}
+[0m23:04:58.680101 [debug] [MainThread]: Flushing usage events
+[0m23:05:28.518037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10322fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104911370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049112b0>]}
+
+
+============================== 23:05:28.520312 | 0a16e6fe-62e5-4504-9c02-83392e265a95 ==============================
+[0m23:05:28.520312 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:05:28.520578 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'profiles_dir': '/Users/saroja/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:05:28.547322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0a16e6fe-62e5-4504-9c02-83392e265a95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104942370>]}
+[0m23:05:28.557193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0a16e6fe-62e5-4504-9c02-83392e265a95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049e7790>]}
+[0m23:05:28.557628 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:05:28.580459 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:05:28.584507 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m23:05:28.584705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0a16e6fe-62e5-4504-9c02-83392e265a95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049c5040>]}
+[0m23:05:28.870551 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m23:05:28.879179 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m23:05:28.880336 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m23:05:28.881854 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m23:05:28.883266 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m23:05:28.885637 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m23:05:28.886327 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m23:05:28.887855 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m23:05:28.889218 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m23:05:28.947430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0a16e6fe-62e5-4504-9c02-83392e265a95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e2c0d0>]}
+[0m23:05:28.950700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0a16e6fe-62e5-4504-9c02-83392e265a95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c69b50>]}
+[0m23:05:28.950872 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 1 seed file, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:05:28.951031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0a16e6fe-62e5-4504-9c02-83392e265a95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a40820>]}
+[0m23:05:28.951675 [info ] [MainThread]: 
+[0m23:05:28.951977 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m23:05:28.952493 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m23:05:28.957237 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m23:05:28.957357 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m23:05:28.957456 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:05:28.957909 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:05:28.958008 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m23:05:28.958108 [info ] [MainThread]: 
+[0m23:05:28.958242 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m23:05:28.958418 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m23:05:28.958629 [debug] [MainThread]: Command `dbt run` failed at 23:05:28.958590 after 0.45 seconds
+[0m23:05:28.958757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10322fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049c5220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e2c550>]}
+[0m23:05:28.958883 [debug] [MainThread]: Flushing usage events
+[0m23:06:14.667722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bb3c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10606d370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10606d2b0>]}
+
+
+============================== 23:06:14.670221 | e55f2244-ef24-452a-bd41-c9f6e8ae350f ==============================
+[0m23:06:14.670221 [info ] [MainThread]: Running with dbt=1.5.11
+[0m23:06:14.670487 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/saroja/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/saroja/PycharmProjects/glossier/src/interview_question_set2/helpdesk_analysis/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m23:06:14.699187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e55f2244-ef24-452a-bd41-c9f6e8ae350f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10609e370>]}
+[0m23:06:14.708694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e55f2244-ef24-452a-bd41-c9f6e8ae350f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106143790>]}
+[0m23:06:14.709072 [info ] [MainThread]: Registered adapter: sqlite=1.5.0
+[0m23:06:14.733128 [debug] [MainThread]: checksum: 007b492a958e08141e13011e4198bea48e7f359a98b57e51b7a963fca8fc83af, vars: {}, profile: , target: , version: 1.5.11
+[0m23:06:14.737572 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:06:14.737776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e55f2244-ef24-452a-bd41-c9f6e8ae350f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106101700>]}
+[0m23:06:15.024327 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m23:06:15.032989 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m23:06:15.034950 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m23:06:15.036484 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m23:06:15.037941 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m23:06:15.040426 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m23:06:15.041147 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m23:06:15.042527 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m23:06:15.043877 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m23:06:15.101236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e55f2244-ef24-452a-bd41-c9f6e8ae350f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063640d0>]}
+[0m23:06:15.105252 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e55f2244-ef24-452a-bd41-c9f6e8ae350f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062b9b50>]}
+[0m23:06:15.105420 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 311 macros, 0 operations, 1 seed file, 2 sources, 0 exposures, 0 metrics, 0 groups
+[0m23:06:15.105566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e55f2244-ef24-452a-bd41-c9f6e8ae350f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061a2700>]}
+[0m23:06:15.106210 [info ] [MainThread]: 
+[0m23:06:15.106503 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m23:06:15.107008 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m23:06:15.111976 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m23:06:15.112105 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m23:06:15.112207 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:06:15.112711 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:06:15.112823 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m23:06:15.112927 [info ] [MainThread]: 
+[0m23:06:15.113067 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m23:06:15.113251 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m23:06:15.113474 [debug] [MainThread]: Command `dbt run` failed at 23:06:15.113430 after 0.46 seconds
+[0m23:06:15.113617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bb3c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060e8100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106364550>]}
+[0m23:06:15.113759 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2024-11-01 04:06:38.938918 | 27a2f96d-b929-48b3-8f23-1bd4418c4be9 ==============================
+[0m04:06:38.938918 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:06:38.939887 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:06:38.939995 [debug] [MainThread]: Tracking: tracking
+[0m04:06:38.946849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cbad30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d4bcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d49ee0>]}
+[0m04:06:38.955982 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m04:06:38.956129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '27a2f96d-b929-48b3-8f23-1bd4418c4be9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cba340>]}
+[0m04:06:39.217267 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m04:06:39.225590 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m04:06:39.227449 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m04:06:39.228764 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m04:06:39.229818 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m04:06:39.231781 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m04:06:39.232325 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m04:06:39.233574 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m04:06:39.235028 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m04:06:39.271449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '27a2f96d-b929-48b3-8f23-1bd4418c4be9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061116d0>]}
+[0m04:06:39.274383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '27a2f96d-b929-48b3-8f23-1bd4418c4be9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105daa7f0>]}
+[0m04:06:39.274511 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 1 seed file, 2 sources, 0 exposures, 0 metrics
+[0m04:06:39.274616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '27a2f96d-b929-48b3-8f23-1bd4418c4be9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cd4490>]}
+[0m04:06:39.275242 [info ] [MainThread]: 
+[0m04:06:39.275912 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:06:39.276499 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:06:39.281036 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:06:39.281129 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:06:39.281223 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:06:39.281690 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:06:39.281760 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:06:39.281832 [info ] [MainThread]: 
+[0m04:06:39.281937 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:06:39.282069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d4bcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10634dac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10634d8e0>]}
+[0m04:06:39.282152 [debug] [MainThread]: Flushing usage events
+[0m04:06:39.584911 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:07:19.159594 | 6ef53cf5-0bdd-4398-87b2-2f989242d79e ==============================
+[0m04:07:19.159594 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:07:19.160563 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:07:19.160670 [debug] [MainThread]: Tracking: tracking
+[0m04:07:19.169208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10789a700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10792b970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107929ee0>]}
+[0m04:07:19.194089 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 0 files added, 0 files changed.
+[0m04:07:19.194271 [debug] [MainThread]: Partial parsing: deleted file: helpdesk_analysis://data/initial_data.csv
+[0m04:07:19.198973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6ef53cf5-0bdd-4398-87b2-2f989242d79e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ae0e20>]}
+[0m04:07:19.201678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6ef53cf5-0bdd-4398-87b2-2f989242d79e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a324f0>]}
+[0m04:07:19.201803 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:07:19.201912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ef53cf5-0bdd-4398-87b2-2f989242d79e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10792b970>]}
+[0m04:07:19.202555 [info ] [MainThread]: 
+[0m04:07:19.203203 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:07:19.203737 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:07:19.208580 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:07:19.208671 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:07:19.208755 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:07:19.209246 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:07:19.209341 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:07:19.209420 [info ] [MainThread]: 
+[0m04:07:19.209524 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:07:19.209658 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107929700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b5d670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b5d490>]}
+[0m04:07:19.209753 [debug] [MainThread]: Flushing usage events
+[0m04:07:19.398449 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:07:49.805636 | a431df73-c807-4abe-a03a-d260ce42fb26 ==============================
+[0m04:07:49.805636 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:07:49.806678 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:07:49.806798 [debug] [MainThread]: Tracking: tracking
+[0m04:07:49.814133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5d400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5d580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ed70a0>]}
+[0m04:07:49.838674 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m04:07:49.838808 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m04:07:49.841887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a431df73-c807-4abe-a03a-d260ce42fb26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10616d0d0>]}
+[0m04:07:49.844766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a431df73-c807-4abe-a03a-d260ce42fb26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060af040>]}
+[0m04:07:49.844898 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:07:49.845009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a431df73-c807-4abe-a03a-d260ce42fb26', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e59b20>]}
+[0m04:07:49.845688 [info ] [MainThread]: 
+[0m04:07:49.846398 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:07:49.846942 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:07:49.851849 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:07:49.851945 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:07:49.852029 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:07:49.852476 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:07:49.852545 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:07:49.852613 [info ] [MainThread]: 
+[0m04:07:49.852706 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:07:49.852829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106136cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106232a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106232c40>]}
+[0m04:07:49.852927 [debug] [MainThread]: Flushing usage events
+[0m04:07:50.043103 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:08:54.038646 | 57e7c1ba-2569-41eb-9562-f59975db5f89 ==============================
+[0m04:08:54.038646 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:08:54.039594 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:08:54.039714 [debug] [MainThread]: Tracking: tracking
+[0m04:08:54.049453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fb88e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ff2df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10504db80>]}
+[0m04:08:54.059299 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m04:08:54.059468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '57e7c1ba-2569-41eb-9562-f59975db5f89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10504d160>]}
+[0m04:08:54.319575 [debug] [MainThread]: 1603: static parser failed on tickets_latest.sql
+[0m04:08:54.327626 [debug] [MainThread]: 1602: parser fallback to jinja rendering on tickets_latest.sql
+[0m04:08:54.329248 [debug] [MainThread]: 1699: static parser successfully parsed ticket_message_summary.sql
+[0m04:08:54.330605 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m04:08:54.331756 [debug] [MainThread]: 1603: static parser failed on messages_latest.sql
+[0m04:08:54.333680 [debug] [MainThread]: 1602: parser fallback to jinja rendering on messages_latest.sql
+[0m04:08:54.334203 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m04:08:54.335306 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m04:08:54.336695 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m04:08:54.366157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '57e7c1ba-2569-41eb-9562-f59975db5f89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1052100d0>]}
+[0m04:08:54.368842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '57e7c1ba-2569-41eb-9562-f59975db5f89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fb8b80>]}
+[0m04:08:54.368976 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:08:54.369085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '57e7c1ba-2569-41eb-9562-f59975db5f89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fc63d0>]}
+[0m04:08:54.369690 [info ] [MainThread]: 
+[0m04:08:54.370329 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:08:54.370855 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:08:54.375499 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:08:54.375604 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:08:54.375693 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:08:54.376178 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:08:54.376251 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:08:54.376322 [info ] [MainThread]: 
+[0m04:08:54.376424 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:08:54.376546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1052122e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053469d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105346c10>]}
+[0m04:08:54.376641 [debug] [MainThread]: Flushing usage events
+[0m04:08:54.713651 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:12:47.502560 | 9a2d4f0b-358c-4dea-ba8a-026589910fb3 ==============================
+[0m04:12:47.502560 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:12:47.506927 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['messages'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:12:47.507070 [debug] [MainThread]: Tracking: tracking
+[0m04:12:47.519850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c46490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110cd3be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110cd27f0>]}
+[0m04:12:47.554420 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m04:12:47.554561 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m04:12:47.557930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9a2d4f0b-358c-4dea-ba8a-026589910fb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f6f0d0>]}
+[0m04:12:47.561485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9a2d4f0b-358c-4dea-ba8a-026589910fb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110eac040>]}
+[0m04:12:47.561627 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:12:47.561743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9a2d4f0b-358c-4dea-ba8a-026589910fb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110cd3be0>]}
+[0m04:12:47.562283 [info ] [MainThread]: 
+[0m04:12:47.562993 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:12:47.563405 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:12:47.568613 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:12:47.568737 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:12:47.568831 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:12:47.569327 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:12:47.569410 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:12:47.569498 [info ] [MainThread]: 
+[0m04:12:47.569628 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:12:47.569774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f36d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111031fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111031df0>]}
+[0m04:12:47.569894 [debug] [MainThread]: Flushing usage events
+[0m04:12:47.888161 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:12:58.148314 | 7ff5ae7b-8f07-4235-8669-f4da173d1a14 ==============================
+[0m04:12:58.148314 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:12:58.149175 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['messages'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:12:58.149270 [debug] [MainThread]: Tracking: tracking
+[0m04:12:58.159097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ea2bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f2afa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f2a880>]}
+[0m04:12:58.190222 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m04:12:58.190519 [debug] [MainThread]: Partial parsing: updated file: helpdesk_analysis://models/messages.sql
+[0m04:12:58.198954 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m04:12:58.210003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7ff5ae7b-8f07-4235-8669-f4da173d1a14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10811b0d0>]}
+[0m04:12:58.213183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7ff5ae7b-8f07-4235-8669-f4da173d1a14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f774c0>]}
+[0m04:12:58.213344 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:12:58.213458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7ff5ae7b-8f07-4235-8669-f4da173d1a14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10807b790>]}
+[0m04:12:58.214038 [info ] [MainThread]: 
+[0m04:12:58.214762 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:12:58.215182 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:12:58.220295 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:12:58.220400 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:12:58.220508 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:12:58.221059 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:12:58.221153 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:12:58.221235 [info ] [MainThread]: 
+[0m04:12:58.221342 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:12:58.221485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10807b730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081388b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081386d0>]}
+[0m04:12:58.221593 [debug] [MainThread]: Flushing usage events
+[0m04:12:58.413119 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:13:06.357176 | 081063b1-fdfe-4d7e-aa92-d92bf773e88f ==============================
+[0m04:13:06.357176 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:13:06.357946 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['messages'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:13:06.358025 [debug] [MainThread]: Tracking: tracking
+[0m04:13:06.364471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103b8ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103e0040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11044ef70>]}
+[0m04:13:06.381273 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m04:13:06.381503 [debug] [MainThread]: Partial parsing: updated file: helpdesk_analysis://models/tickets.sql
+[0m04:13:06.387562 [debug] [MainThread]: 1699: static parser successfully parsed tickets.sql
+[0m04:13:06.398218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '081063b1-fdfe-4d7e-aa92-d92bf773e88f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11191e0d0>]}
+[0m04:13:06.401603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '081063b1-fdfe-4d7e-aa92-d92bf773e88f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103f28b0>]}
+[0m04:13:06.401752 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:13:06.401861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '081063b1-fdfe-4d7e-aa92-d92bf773e88f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103f66a0>]}
+[0m04:13:06.402374 [info ] [MainThread]: 
+[0m04:13:06.403038 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:13:06.403405 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:13:06.408173 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:13:06.408278 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:13:06.408369 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:13:06.408898 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:13:06.408985 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:13:06.409055 [info ] [MainThread]: 
+[0m04:13:06.409164 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:13:06.409308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103e0040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11195c880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11195c6a0>]}
+[0m04:13:06.409423 [debug] [MainThread]: Flushing usage events
+[0m04:13:06.595431 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:13:30.387869 | 9cd20e5b-1a2a-43c6-a5d3-42f215f1823d ==============================
+[0m04:13:30.387869 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:13:30.388945 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'select': ['messages'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:13:30.389035 [debug] [MainThread]: Tracking: tracking
+[0m04:13:30.397578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119446bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1194cefa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1194ce880>]}
+[0m04:13:30.421979 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m04:13:30.422219 [debug] [MainThread]: Partial parsing: updated file: helpdesk_analysis://models/messages.sql
+[0m04:13:30.429464 [debug] [MainThread]: 1699: static parser successfully parsed messages.sql
+[0m04:13:30.439139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9cd20e5b-1a2a-43c6-a5d3-42f215f1823d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1196bf0d0>]}
+[0m04:13:30.441983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9cd20e5b-1a2a-43c6-a5d3-42f215f1823d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1195dc7c0>]}
+[0m04:13:30.442118 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:13:30.442224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9cd20e5b-1a2a-43c6-a5d3-42f215f1823d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11961f790>]}
+[0m04:13:30.442733 [info ] [MainThread]: 
+[0m04:13:30.443420 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:13:30.443812 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:13:30.448709 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:13:30.448806 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:13:30.448893 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:13:30.449346 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:13:30.449419 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:13:30.449490 [info ] [MainThread]: 
+[0m04:13:30.449588 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:13:30.449712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11961f730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1196d9850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1196d9670>]}
+[0m04:13:30.449806 [debug] [MainThread]: Flushing usage events
+[0m04:13:30.637149 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+
+
+============================== 2024-11-01 04:13:44.913689 | feb1a852-8f16-4601-901f-781eb72f5b6f ==============================
+[0m04:13:44.913689 [info ] [MainThread]: Running with dbt=1.4.0
+[0m04:13:44.914643 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/saroja/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m04:13:44.914733 [debug] [MainThread]: Tracking: tracking
+[0m04:13:44.923220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1027780d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cf9e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cf98e0>]}
+[0m04:13:44.949677 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m04:13:44.949831 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m04:13:44.953222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'feb1a852-8f16-4601-901f-781eb72f5b6f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e920d0>]}
+[0m04:13:44.956642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'feb1a852-8f16-4601-901f-781eb72f5b6f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105dbf0d0>]}
+[0m04:13:44.956801 [info ] [MainThread]: Found 7 models, 4 tests, 0 snapshots, 0 analyses, 290 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+[0m04:13:44.956915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'feb1a852-8f16-4601-901f-781eb72f5b6f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105dbf040>]}
+[0m04:13:44.957629 [info ] [MainThread]: 
+[0m04:13:44.958458 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m04:13:44.959048 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_/Users/saroja/helpdesk_analysis.db'
+[0m04:13:44.964426 [debug] [ThreadPool]: Using sqlite connection "list_/Users/saroja/helpdesk_analysis.db"
+[0m04:13:44.964544 [debug] [ThreadPool]: On list_/Users/saroja/helpdesk_analysis.db: BEGIN
+[0m04:13:44.964629 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m04:13:44.965139 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m04:13:44.965234 [debug] [MainThread]: Connection 'list_/Users/saroja/helpdesk_analysis.db' was properly closed.
+[0m04:13:44.965320 [info ] [MainThread]: 
+[0m04:13:44.965423 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.01 seconds (0.01s).
+[0m04:13:44.965551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e59700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f549d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f54c10>]}
+[0m04:13:44.965656 [debug] [MainThread]: Flushing usage events
+[0m04:13:45.152615 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
